@@ -22,11 +22,13 @@ window.columnconfigure(3, weight = 10)
 window.rowconfigure(0, weight = 1)
 window.rowconfigure(1, weight = 1)
 window.rowconfigure(2, weight = 1)
+window.rowconfigure(3, weight = 3)
 
 # place a widget
 label1.grid(row = 0, column = 0, sticky = 'nsew')
-label2.grid(row = 0, column = 1, rowspan = 2, sticky = 'nsew')
-label3.grid(row = 1, column = 3, sticky = 'nsew')
+label2.grid(row = 1, column = 1, rowspan = 3, sticky = 'nsew')
+label3.grid(row = 1, column = 3, sticky = 'nsew', padx = 20, pady = 10)
+label4.grid(row = 3, column = 3, sticky = 'se')
 
 # run
 window.mainloop()
