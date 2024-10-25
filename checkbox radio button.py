@@ -34,6 +34,8 @@ exercise_radio1 = ttk.Radiobutton(window, text = 'Radio A', value = 'A')
 exercise_radio1.pack()
 exercise_radio2 = ttk.Radiobutton(window, text = 'Radio B', value = 'B')
 exercise_radio2.pack()
+exercise_radio3 = ttk.Radiobutton(window, text = 'Radio C', value = 'C')
+exercise_radio3.pack()
 
 # run
 window.mainloop()
