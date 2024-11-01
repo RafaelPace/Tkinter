@@ -48,9 +48,6 @@ menu_toggle2.pack(side = 'left', expand = True)
 # entry layout
 entry.place(relx = 0.5, rely = 0.95, relwidth = 0.9, anchor = 'center')
 
-# ttk.Label(menu_frame, background = 'red').pack(expand = True, fill = 'both')
-# ttk.Label(main_frame, background = 'yellow').pack(expand = True, fill = 'both')
-
 # main widgets
 entry_frame1 = ttk.Frame(main_frame)
 main_label1 = ttk.Label(entry_frame1, text = 'label1', background = 'red')
