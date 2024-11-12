@@ -15,4 +15,13 @@ janela.geometry("400x200")
 entrada = tk.Entry(janela, width=30)
 entrada.pack(pady=10)
 
+btn_exibir = tk.Button(janela, text="Exibir Texto", command=exibir_texto)
+btn_exibir.pack(pady=5)
+
+btn_limpar = tk.Button(janela, text="Limpar Texto", command=limpar_texto)
+btn_limpar.pack(pady=5)
+
+label = tk.Label(janela, text="")
+label.pack(pady=10)
+
 janela.mainloop()
