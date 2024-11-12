@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import ttk
 
 def exibir_texto():
     texto = entrada.get()
