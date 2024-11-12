@@ -25,4 +25,3 @@ label = tk.Label(janela, text="")
 label.pack(pady=10)
 
 janela.mainloop()
-
